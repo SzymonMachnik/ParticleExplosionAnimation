@@ -1,9 +1,8 @@
-"# ParticleExplosion" 
-"# ParticleExplosion" 
-"# ParticleExplosion" 
-"# ParticleExplosion" 
-"# ParticlesExpl" 
-"# ParticlesExpl" 
-"# ParticlesExpl" 
-"# ParticlesExpl" 
-"# ParticlesExpl" 
+# Particle Explosion Animation
+This is the first bigger C++ project that I have made. Doing this project I have learnt:
+
+ - Object oriented design
+ - Creating program window
+ - Using buffer, textures and renderers
+ - Changing particle's color by bit operations
+ - And more!
