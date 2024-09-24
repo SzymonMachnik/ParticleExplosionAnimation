@@ -28,6 +28,7 @@ int main(int argc, char *argv[]) {
 
     // Update particles
     swarm.update(elapsed);
+    
     // Draw particles
 
     const Particle * const pParticle = swarm.getParticles();
@@ -47,8 +48,10 @@ int main(int argc, char *argv[]) {
     }
 
     screen.boxBlur();
+
     // Draw the screen
     screen.update();
+
     // Check for updates/messages
     if (screen.processEvents() == false) break;
   }
@@ -57,8 +60,3 @@ int main(int argc, char *argv[]) {
 
   return 0;
 }
-
-//I love Roya
-// I love Roya my bobo
-//fgd
-// elo elo
