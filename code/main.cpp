@@ -53,6 +53,7 @@ int main(int argc, char *argv[]) {
     screen.update();
 
     // Check for updates/messages
+    
     if (screen.processEvents() == false) break;
   }
 
